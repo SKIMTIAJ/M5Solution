@@ -1,0 +1,104 @@
+.career-post-div{
+	display: flex;
+	flex-wrap: wrap;
+}
+.career-div{
+	margin: 4.08%; 
+	border: 1px solid red; 
+	padding: 2%;
+}
+
+/*.........................................................Blog..................................................... */
+
+.container-industy{
+	position: relative;
+}
+.image-c{
+	object-fit: cover;
+	object-position:center;
+	display: block;
+	width: 100%;
+	height:auto;
+}
+.overlay{
+	position: absolute;
+	width:100%;
+	height: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+	/*background-color: #008CBA;*/
+	background-color: rgba(0, 140, 186,100%);
+	transition: .5s ease;
+}
+.container-industry:hover .overlay{
+	height: 100%;
+}
+.overlay h5{
+  	text-align: center;
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+/*  .....................................Project Page Css........................................  */
+
+
+#project-above-header{
+	height: 50vh;
+}
+#Protfolio-caption{
+	text-align: center;
+	margin-top: 14%;
+	font-size: 200%;
+	font-weight: bold;
+	color: white;
+}
+.project-sec-1st-div{
+	padding: 3% 2%;
+}
+.project-img{
+	width: 100%;
+	height: auto;
+	border: 3px solid black;
+}
+.project-Content-div{
+	 padding: 3% 0%;
+	 margin-top: -35%;
+	 border: 1px solid black;
+}
+.project-Name-h4{
+	 text-align: inherit;
+	 font-weight: bold;
+	 color: #100a4d;;
+	 word-spacing: 3px;
+	 letter-spacing: 3px;
+	 padding: 0% 3%;
+}
+.project-Des-p{
+	 text-align: inherit;
+	 font-weight: bold;
+	 color: #0e4d3b;
+	 word-spacing: 2px;
+	 letter-spacing: 2px;
+	 padding: 0% 3%;
+}
+.project-read-more{
+	 padding: 2% 3%;
+	 margin: 2% 3%;
+	 color: #fff;
+	 background-color: #1a735e;
+	 border-radius: 10px;
+}
+.project-read-more:hover{
+	color: #fff;
+	background-color: red;
+	text-decoration: none;
+}

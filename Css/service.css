@@ -1,0 +1,479 @@
+
+/*......................................UI/Ux Design..............................................*/
+
+.uxdesign-above-div{
+	background-image:linear-gradient(rgba(000, 000, 000,50%), rgba(000, 000, 000,50%)),url('../img/world.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 75vh;
+	position: relative;
+}
+#ux-above-div{
+	top: 40%;
+}
+.header-h6{
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	color: white; 
+	/*position:absolute;*/ 
+	/*margin: 15% 5%;*/
+	font-weight: 900;
+}
+.header-h2{
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	color: white; 
+	/*position:absolute; */
+/*	margin: 17% 5%;*/
+	font-weight: 900;
+}
+.uxdesign-above-extra-div{
+	color: white; 
+	position:absolute; 
+	margin: -15% 5% 5%; 
+	width: 50%;
+	padding: 2% 3%; 
+	background-color: black;
+}
+.uxdesign-above-extra-div h4{
+	padding: 3% 2%; 
+	text-align: justify;
+}
+.uxdesign-above-extra-div p{
+	padding: 3% 2%; 
+	text-align: justify; 
+	font-weight: bold;
+}
+
+.web-design-div{
+	/*padding: 30% 5%;*/
+	margin: 6% 0%;
+}
+.web-dev{
+	background-image: linear-gradient(rgba(000, 000, 000,50%), rgba(000, 000, 000,50%)),url('../img/world.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.We-Provide-div:hover{
+	box-sizing: border-box;
+	box-shadow:5px 5px 5px 5px grey;
+	z-index: 5;
+}
+.webdesign-h{
+	margin: 2% 5%;
+	color: #0e2086;
+	text-align: justify;
+	font-weight: 700;
+	text-transform: capitalize; 	
+	font-size: 150%;
+	padding: 0% 0% 1%;
+	border-bottom: 1px solid #bf55ec;
+}
+.webdesign-p{
+	text-decoration: none;
+	margin: 1% 2%;
+	color: #000;
+	font-weight: 500;
+	font-size: 100%;
+	text-align: justify;
+}
+
+.btn-r{
+	display: inline-block;;
+	padding:5px 30px;
+	margin: 2% 3%;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: capitalize;
+	border-radius: 200px;
+	transition: background-color0.2%,border 0.2%, color 0.2%; 
+}
+
+.Request-btn{
+	background-color: #49991d;
+	color: #fff;
+	margin-right: 15px;
+	/*border: 1px solid #bf55ec;*/
+	text-decoration: none;
+}
+
+.Request-btn:hover{
+	background-color: rgb(0,0,0,0.5);
+	color: #fff;
+	margin-right: 15px;
+	/*border: 1px solid #bf55ec;*/
+	text-decoration: none;
+}
+
+.know-btn{
+	background-color: #49991d;
+	color: #fff;
+	margin-right: 15px;
+	border: 1px solid #fff;
+	text-decoration: none;
+}
+.know-btn:hover{
+	background-color: rgb(0,0,0,0.5);
+	color: #fff;
+	margin-right: 15px;
+	border: 1px solid #fff;
+	text-decoration: none;
+}
+.sec-div{
+/*	padding: 8% 0*/%;
+}
+
+@media only screen and (max-width: 1180px){
+.uxdesign-above-extra-div{
+	margin: -15% 5% 5%; 
+	width: 70%;
+}
+
+}
+@media only screen and (max-width: 898px){
+	.uxdesign-above-extra-div{
+		margin: -25% 5% 5%; 
+		width: 80%;
+	}
+
+}
+@media only screen and (max-width: 770px){
+.uxdesign-above-extra-div{
+		margin: -25% 5% 5%; 
+		width: 90%;
+		padding: 1% 3%; 
+	}
+
+}
+@media only screen and (max-width: 650px){
+
+.uxdesign-above-extra-div{
+	position:initial; 
+	margin: 5% 5% 5%; 
+	width: 90%;
+	padding: 1% 3%; 
+}
+#ux-above-div{
+	top: 50%;
+}
+
+}
+@media only screen and (max-width: 320px){
+
+
+}
+
+
+
+/*........................................... App Development Page ..................................................*/
+
+
+.mobiledev-above-div{
+	width: 1180px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 5% 3%;
+	transform: translate(-50%,-40%);
+}
+.Quate-re{
+  color: white;
+  position:relative; 
+  /*margin: 8% 0%; */
+  padding: 1% 3%; 
+  background-image: linear-gradient(to bottom right, red, blue);
+  border-radius: 18px;
+  text-transform: capitalize;
+}
+.Quate-re:hover{
+	color: green;
+	text-decoration: none;
+	z-index: 3;
+}
+.Our-thought-onApp{
+	max-width: 60%;
+	padding: 2% 3%;
+	margin: 2% 3%;
+	font-family: "CircularStd";
+	font-weight: bold;
+	font-size: 140%;
+	color: black;
+	word-spacing: 2px;
+	text-align: inherit;
+	white-space: none; 	
+}
+.Our-thought-img{
+	width: 70%;
+	height:350px;	
+	padding:0%;
+	border: 3px solid black; 
+	object-fit: cover;
+}
+.our-Mobile-app-dev-serv-div{
+	margin: 2% 3%;
+}
+.web-dev-service-div{
+	display: flex;
+	flex-wrap: wrap;
+}
+.mobile-dev-serv{
+	font-size: 90%;
+	font-family: normal;
+	color: black;
+	text-align: center;
+	margin:2% 0%;
+}
+.mobile-dev-serv a{
+	color: black;
+	text-align: center;
+	padding: 0% 5%;
+}
+.mobile-dev-serv a{
+	text-decoration: none;
+}
+.app-dev-i {
+	width: 100px; 
+	height: 100px; 
+	padding:23px;
+	font-size: 48px; 
+	border-radius:50%;
+	color: #fff;
+	text-align: center;
+}
+.mob-app-specialize-div{
+	background-image: linear-gradient(to bottom right, rgb(51, 153, 255),rgb(153, 102, 255));
+	padding: 5% 0%;
+}
+.app-special-i{
+	width: 100px; 
+	height: 100px; 
+	padding-top:23px;
+	font-size: 48px; 
+	border-radius:50%;
+	color: #fff;
+	border:2px solid #fff;
+	text-align: center;
+}
+.app-special-p{
+	text-align: center;
+	padding: 2% 0%;
+	font-size: 90%;
+	font-family: normal;
+	color: #fff;
+	margin:2% 0%;
+}
+.app-special-p a{
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+.mob-app-dev-process{
+	margin: 3% 0%;
+}
+.mob-app-dev-process h3{
+ text-align:center; 
+ font-weight: bold; 
+ padding:0px 15px;
+}
+.App-Dev-process-h{
+	font-size: 200%;
+	font-weight: bold;
+	padding: 3% 0%;
+	margin: 0% 15%;
+	color: #fff;
+	border-bottom: 2px solid green;
+}
+.App-Dev-process-ul{
+	margin: 5% 5%;	
+}
+.App-Dev-process-ul li{
+	list-style-type: none;
+}
+.App-Dev-process-ul li p{
+	color: #fff;
+	font-size: 130%;
+	font-weight: bold;
+	margin: 3% 10%;
+
+}
+
+@media only screen and (max-width: 1180px){
+.mobiledev-above-div{
+	width: 100%;
+	padding: 5% 3%;
+}
+
+}
+@media only screen and (max-width: 898px){
+
+}
+@media only screen and (max-width: 770px){
+.Our-thought-onApp{
+	max-width: 100%;
+	font-size: 130%;
+}
+.Our-thought-img{
+	width: 100%;
+	height: auto;
+}
+
+}
+@media only screen and (max-width: 320px){
+	.uxdesign-above-div{
+	height: 50vh;
+}
+
+.header-h6{
+	font-size: 90%;
+	font-weight: 500;
+}
+.header-h2{
+	font-size: 110%;
+	font-weight: 900;
+}
+
+.Our-thought-onApp{
+	font-size: 110%;	
+}
+.our-Mobile-app-dev-serv-div{
+	font-size: 100%;
+}
+.mob-app-dev-process h3{
+	font-size:90%; 
+	 text-align:center; 
+	 font-weight: bold; 
+	 padding:0px 15px;
+}
+
+}
+/* .........................................Web Development Page.................................... */
+.web-app-dev{
+ padding: 0% 2%;
+}
+.web-app-dev-img{
+	height: 350px;
+	margin: 3% 0%; 
+	padding: 2% 0%; 
+	object-fit: contain; 
+	
+}
+.web-app-dev>div{
+	height: 350px;
+	margin: 3% 0%; 
+	padding: 0% 0%;
+	
+}
+.procedure-Follow-h3{
+	text-align: center;
+	font-size: 150%;
+	font-weight: 700;
+}
+.procedure-Follow-p{
+	color: black; 
+	text-align: center; 
+	margin: 0% 10%;
+	font-weight: 500;
+	font-size: 110%;
+}
+.procedure-web-subdv{
+	margin: 4%;
+	padding: 2.04%;
+	background-color: #fff;
+	box-shadow: 2px 12px 13px grey;
+	z-index: 3;
+}
+.procedure-web-subdv h4{
+	font-weight: bold;
+}
+.procedure-web-subdv p{
+	font-weight: 500;
+	padding: 4% 0%;
+}
+
+@media only screen and (max-width: 1180px){
+
+
+}
+@media only screen and (max-width: 898px){
+
+}
+@media only screen and (max-width: 770px){
+
+
+}
+@media only screen and (max-width: 320px){
+	
+.web-app-dev-img{
+	height: auto;
+	margin: 3% 0%; 
+	padding: 2% 0%; 
+	object-fit: contain; 
+}
+.App-Dev-process-ul li p{
+	color: #fff;
+	font-size: 110%;
+	font-weight: bold;
+	margin: 3% 10%;
+
+}
+.web-app-dev>div{
+	height: auto;
+	margin: 3% 0%; 
+	padding: 0% 0%;
+	
+}
+.App-Dev-process-h{
+	font-size: 160%;
+	font-weight: bold;
+	padding: 3% 0%;
+	margin: 0% 15%;
+	color: #fff;
+	border-bottom: 2px solid green;
+ }
+}
+
+/*  ***********************************************Digital marketing Page*************************************** */
+
+.digital-m-img1{
+	width:100%;
+	height: auto;
+	background-image: url('../img/man.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	padding:3% 4%;
+}
+.digital-m-img-div{
+	margin: 2% 2%; 
+	width: 50%;
+}
+.digital-m-img-div h2{
+	color:#0c5b19;
+	font-style: normal;
+	font-weight: bold;
+}
+.digital-m-img-div p{
+	color:#062a62;
+	font-size: 18px;
+	font-weight: bold;
+}
+.digital-m-ul{
+	margin: 2% 5%;
+	color: #000;
+	/*625f5f*/
+	font-weight: 500;
+	font-size: 100%;
+	font-family: 'Flamenco', cursive;
+	text-align: justify;
+	/*font-weight: 700;
+	text-transform: capitalize; 	
+	font-size: 150%;
+	padding: 0% 0% 1%;
+	border-bottom: 1px solid #bf55ec;*/
+}
